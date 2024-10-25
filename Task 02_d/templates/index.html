@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <title>CCWS - CW 01</title>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h2>My Student Connections from GCU</h2> 
+  <p>Welcome to my GCU student connections website</p>
+  <p>Click the link to view my student connection listing</p>  
+  </br>
+  <div class='container'> 
+	<img src="{{ url_for('static', filename='selfie.jpg') }}" alt="Profile Photo">
+    <div class='content'>
+	  <p><b>Student ID: </b>{{ my_id }}</p>   
+	  <p><b>Name: </b>{{ my_name }}</p>
+	  </br>
+	  <a href="/buddies">View</a> 
+	</div>
+  </div>
+</body>
+</html>
