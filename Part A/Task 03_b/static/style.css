@@ -1,0 +1,52 @@
+body {
+  font-family: "helvetica", sans-serif;
+  text-align: left; 
+  padding: 10px;
+  margin: 0;
+}
+
+img {
+    max-width: 200px; 
+    max-height: 200px; 
+    width: auto;
+    height: auto; 
+	margin-right: 20px;
+}
+
+a {
+  border: 1px solid; 
+  border-color: black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:link, a:visited {
+  border-color: purple;
+}
+
+a:hover, a:active {
+  border-color: red;
+}
+
+ul, li {
+  margin-left: 0; 
+  padding-left: 0; 
+  list-style: none;
+}
+
+li { 	
+  padding: 10px; 
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 60%;
+}
+
+.content {
+  flex-grow: 1;
+}
